@@ -1,0 +1,5 @@
+#Config Data
+testsiteurl=https://way2automation.com/way2auto_jquery/index.php
+browser=chrome
+implicit.wait=10
+explicit.wait=5

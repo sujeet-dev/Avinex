@@ -1,0 +1,16 @@
+#Login Test
+linktext=Signin
+Username_xpath=//*[@id="load_form"]/fieldset[1]/input
+Password_name=password
+
+#User Reg Test
+
+Name_name=name
+phn_name=phone
+email_name=email
+contry_name=country
+city_name=city
+username_name=username
+rightof_xpath=//*[@id="load_form"]/fieldset[6]/label
+password_name=password
+rightof_xpath1=//*[@id="load_form"]/fieldset[7]/label
