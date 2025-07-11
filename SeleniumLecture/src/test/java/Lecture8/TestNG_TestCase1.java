@@ -1,5 +1,6 @@
-package Lecture8;
+ package Lecture8;
 
+import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -19,20 +20,27 @@ public class TestNG_TestCase1 {
 	}
 	@BeforeMethod
 	public void launchingBrowser() {
+		
+		
 		System.out.println("Launching the browser");
 	}
 	@AfterMethod
-	public void ClosingBrowser() {
+	public void ClosingBrowser() 
+	{
 		System.out.println("Closing the browser");
+		Reporter.log("browser closed");
 	}
 
 	@Test(priority = 2)
 	public void doLogin() {
+		
+		
 		System.out.println("Executing the login page");
 	}
 	
 	@Test(priority = 1)
 	public void UserRegistration() {
+		Reporter.log("Perform User Reg test");
 		System.out.println("Executing the user registration flow");
 	}
 

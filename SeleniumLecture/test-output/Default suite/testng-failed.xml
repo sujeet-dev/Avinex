@@ -3,11 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Lecture8.TestNG_TestCase2">
+      <class name="Lecture8.TestExtentReports">
         <methods>
-          <include name="validateTitle"/>
+          <include name="EndSetUp"/>
+          <include name="SetUpReport"/>
+          <include name="UpdateResult"/>
+          <include name="ValidateTitle"/>
+          <include name="beforeTest"/>
+          <include name="DoLogin"/>
         </methods>
-      </class> <!-- Lecture8.TestNG_TestCase2 -->
+      </class> <!-- Lecture8.TestExtentReports -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
