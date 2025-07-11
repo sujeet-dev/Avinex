@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="UserRegistration">
+    <classes>
+      <class name="Test1.TestNG_Testcase1"/>
+ 
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="CompaireTitle">
+    <classes>
+
+      <class name="Test1.TestNG_Testcase2"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="DependencyTest">
+    <classes>
+     
+      <class name="Test1.TestNG_Testcase3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
+
+
