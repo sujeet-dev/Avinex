@@ -1,9 +1,0 @@
-package Lecture8;
-
-import org.testng.annotations.Test;
-
-public class TestExportReport {
-  @Test
-  public void f() {
-  }
-}
